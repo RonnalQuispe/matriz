@@ -22,6 +22,15 @@ int main() {
     for ( i = 0; i < fila; i++) {
         matriz[i][i] = 1;
     }
-  
+    
+    // Imprimir la matriz
+    printf("Matriz resultante de la matriz %d por %d  es:\n", fila, columna);
+    for ( i = 0; i < fila; i++) {
+        for ( j = 0; j < columna; j++) {
+            printf("%d ", matriz[i][j]);
+        }
+        
+    }
+    
     return 0;
 }
