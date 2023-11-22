@@ -29,7 +29,7 @@ int main() {
         for ( j = 0; j < columna; j++) {
             printf("%d ", matriz[i][j]);
         }
-        
+        printf("\n");
     }
     
     return 0;
